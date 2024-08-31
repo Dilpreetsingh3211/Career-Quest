@@ -96,9 +96,7 @@
   transition: transform 0.3s ease;
 }
 
-.navbar-nav .dropdown-toggle[aria-expanded="true"]::after {
-  transform: rotate(90deg);
-}
+
 
 .career-exploration-section .row {
   display: flex;
