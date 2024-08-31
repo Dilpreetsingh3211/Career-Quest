@@ -1,0 +1,161 @@
+.navbar-nav .nav-link {
+  position: relative;
+  color: #000;
+  border-radius: 8px;
+  padding: 8px 16px;
+  transition: color 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #fff;
+  background-color: rgba(106, 13, 173, 0.8);
+  box-shadow: 0px 4px 10px rgba(106, 13, 173, 0.4);
+  border-radius: 12px;
+}
+
+.navbar-nav .nav-link:focus::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  height: 2px;
+  background-color: #6a0dad;
+  transition: all 0.3s ease;
+  opacity: 1;
+}
+
+.navbar-nav .nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  height: 2px;
+  background-color: transparent;
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+
+.navbar-nav .nav-link:focus {
+  outline: none;
+}
+
+.navbar-nav .nav-link:focus::after {
+  opacity: 1;
+  background-color: #6a0dad;
+  height: 3px;
+  transform: scaleX(1);
+}
+
+.navbar-nav .nav-link:active::after {
+  background-color: transparent;
+}
+
+.contact-highlight {
+  background-color: transparent;
+  color: inherit;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.home-page .contact-highlight:hover {
+  background-color: white;
+  color: rgb(228, 15, 228);
+  border-radius: 4px;
+}
+
+.navbar-nav .dropdown-menu {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 0;
+}
+
+.navbar-nav .dropdown-item {
+  padding: 10px 20px;
+  color: #333;
+  font-size: 16px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-nav .dropdown-item:hover {
+  background-color: #6f42c1;
+  color: #ffffff;
+}
+
+.navbar-nav .dropdown-item.active,
+.navbar-nav .dropdown-item:active {
+  background-color: #5a359a;
+  color: #ffffff;
+}
+
+.navbar-nav .dropdown-toggle::after {
+  content: '\25B6';
+  float: right;
+  margin-left: 5px;
+  transition: transform 0.3s ease;
+}
+
+.navbar-nav .dropdown-toggle[aria-expanded="true"]::after {
+  transform: rotate(90deg);
+}
+
+.career-exploration-section .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.career-exploration-section .card {
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.4s ease, box-shadow 0.4s ease, opacity 0.4s ease;
+  opacity: 0;
+  transform: translateY(20px) scale(0.95);
+  animation: slideUpFadeInScale 0.6s ease forwards;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.career-exploration-section .card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.career-exploration-section .card-link {
+  align-self: flex-start;
+}
+
+.career-exploration-section .card:hover {
+  transform: translateY(-20px) scale(1.1) rotate(2deg);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes slideUpFadeInScale {
+  0% {
+    opacity: 0;
+    transform: translateY(20px) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.career-exploration-section .container {
+  overflow: hidden;
+}
+
+.animated-btn {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.animated-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}

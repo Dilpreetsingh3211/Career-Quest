@@ -1,0 +1,77 @@
+.career-path-section {
+    padding: 5rem;
+    text-align: center;
+    background-image: url('assets/images/allcareer.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    position: relative;
+    background-color: white;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+}
+
+.career-path-mask {
+    position: absolute;
+    top: 2rem;
+    left: 4rem;
+    right: 4rem;
+    bottom: 2rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.career-path-section:hover {
+    transform: scale(1.05);
+    background-color: #f8f9fa;
+}
+
+.career-path-section:hover .career-path-mask {
+    opacity: 1;
+}
+
+.career-path-content {
+    position: relative;
+    z-index: 2;
+    color: white;
+}
+
+.career-path-title, .career-path-subtitle {
+    margin-bottom: 1rem;
+}
+
+.career-path-btn {
+    display: inline-block;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    border: none;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.career-path-btn:hover {
+    background: linear-gradient(135deg, #0056b3, #003d7a);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.career-path-btn:active {
+    background: linear-gradient(135deg, #003d7a, #0056b3);
+    transform: translateY(0);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cq-page-section .about-section-one-content p,
+.cq-page-section .about-section-two-content p {
+    text-align: justify;
+}

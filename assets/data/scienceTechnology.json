@@ -1,0 +1,207 @@
+{
+  "categories": [
+    {
+      "title": "Engineering",
+      "image": "assets/images/resources/engineering.jpg",
+      "link": "blog/engineering-blog.html",
+      "description": "Explore the field of engineering with articles and resources on various branches including civil, mechanical, electrical, and more.",
+      "general_stream": "Science & Technology"
+    },
+    {
+      "title": "Aviation",
+      "image": "assets/images/resources/aviation.jpg",
+      "link": "blog/aviation.html",
+      "description": "Discover the fascinating world of aviation, covering everything from pilot training to aircraft engineering.",
+      "general_stream": "Science & Technology"
+    },
+    {
+      "title": "Medicine",
+      "image": "assets/images/resources/medicine.jpg",
+      "link": "blog/medicine.html",
+      "description": "Stay updated on medical research, healthcare trends, and advancements in the field of medicine.",
+      "general_stream": "Medicine"
+    },
+    {
+      "title": "Computer Application & IT",
+      "image": "assets/images/resources/computer-application.jpg",
+      "link": "blog/computer-application-it.html",
+      "description": "Dive into the world of IT and computer applications with content on software development, IT management, and emerging technologies.",
+      "general_stream": "Science & Technology"
+    },
+    {
+      "title": "Ethical Hacking",
+      "image": "assets/images/resources/ehical-hacking.jpg",
+      "link": "blog/ethical-hacking.html",
+      "description": "Learn about ethical hacking techniques and cybersecurity practices to protect systems from malicious attacks.",
+      "general_stream": "Science & Technology"
+    },
+    {
+      "title": "Architecture",
+      "image": "assets/images/resources/architecture.jpg",
+      "link": "blog/architecture.html",
+      "description": "Unveil the art and science of architecture, with insights into design, construction, and architectural history.",
+      "general_stream": "Arts & Design"
+    },
+    {
+      "title": "Merchant Navy",
+      "image": "assets/images/resources/merchant-navy.jpg",
+      "link": "blog/merchant-navy.html",
+      "description": "Explore careers and educational paths in the merchant navy, including navigation, engineering, and maritime law.",
+      "general_stream": "Science & Technology"
+    },
+    {
+      "title": "Food & Agriculture",
+      "image": "assets/images/resources/agriculture.jpg",
+      "link": "blog/food-agriculture.html",
+      "description": "Get informed about the latest advancements in food science and agriculture, including sustainable practices and technology.",
+      "general_stream": "Science & Technology"
+    },
+    {
+      "title": "Physical Science",
+      "image": "assets/images/resources/physical-science.jpg",
+      "link": "blog/physical-science.html",
+      "description": "Understand the principles of physical science, including physics, chemistry, and earth sciences.",
+      "general_stream": "Science & Technology"
+    },
+    {
+      "title": "Life Science & Environment",
+      "image": "assets/images/resources/life-science.jpg",
+      "link": "blog/life-science-environment.html",
+      "description": "Explore the intersection of life sciences and environmental studies, from biology to ecology.",
+      "general_stream": "Science & Technology"
+    },
+    {
+      "title": "Maths & Statistics",
+      "image": "assets/images/resources/maths.jpg",
+      "link": "blog/maths-statistics.html",
+      "description": "Delve into the world of mathematics and statistics, with content ranging from theoretical math to applied statistics.",
+      "general_stream": "Science & Technology"
+    },
+    {
+      "title": "Allied Medicine",
+      "image": "assets/images/resources/medicine.jpg",
+      "link": "blog/allied-medicine.html",
+      "description": "Explore the various fields of allied medicine, including physiotherapy, occupational therapy, and more.",
+      "general_stream": "Medicine"
+    },
+    {
+      "title": "Nutrition & Fitness",
+      "image": "assets/images/resources/fitness.jpg",
+      "link": "blog/nutrition-fitness.html",
+      "description": "Get expert advice on nutrition, fitness, and wellness, with tips on healthy living and disease prevention.",
+      "general_stream": "Medicine"
+    },
+    {
+      "title": "Design",
+      "image": "assets/images/resources/design.jpg",
+      "link": "blog/design.html",
+      "description": "Unleash your creativity with insights into graphic design, product design, and innovative design thinking.",
+      "general_stream": "Arts & Design"
+    },
+    {
+      "title": "Animation & Graphics",
+      "image": "assets/images/resources/animation.jpg",
+      "link": "blog/animation-graphics.html",
+      "description": "Discover the world of animation and graphics, from 2D and 3D animation to visual effects and motion graphics.",
+      "general_stream": "Arts & Design"
+    },
+    {
+      "title": "Media & Communication",
+      "image": "assets/images/resources/media.jpg",
+      "link": "blog/media-communication.html",
+      "description": "Stay updated on the latest trends in media and communication, including journalism, public relations, and digital media.",
+      "general_stream": "Arts & Design"
+    },
+    {
+      "title": "Applied Arts",
+      "image": "assets/images/resources/design.jpg",
+      "link": "blog/applied-arts.html",
+      "description": "Explore the creative world of applied arts, including painting, sculpture, and other visual arts.",
+      "general_stream": "Arts & Design"
+    },
+    {
+      "title": "Performing Arts",
+      "image": "assets/images/resources/media.jpg",
+      "link": "blog/performing-arts.html",
+      "description": "Discover the exciting world of performing arts, including music, dance, theater, and more.",
+      "general_stream": "Arts & Design"
+    },
+    {
+      "title": "Cabin Crew",
+      "image": "assets/images/resources/cabin-crew.jpg",
+      "link": "blog/cabin-crew.html",
+      "description": "Learn about the roles and responsibilities of cabin crew members in the aviation industry.",
+      "general_stream": "Science & Technology"
+    },
+    {
+      "title": "Hotel Management",
+      "image": "assets/images/resources/hotel.jpg",
+      "link": "blog/hotel-management.html",
+      "description": "Explore the hospitality industry with insights into hotel management, tourism, and customer service.",
+      "general_stream": "Business & Commerce"
+    },
+    {
+      "title": "Civil Services",
+      "image": "assets/images/resources/civil services.jpg",
+      "link": "blog/civil-services.html",
+      "description": "Prepare for civil services exams and learn about the roles and responsibilities of civil servants.",
+      "general_stream": "Law & Governance"
+    },
+    {
+      "title": "Defense",
+      "image": "assets/images/resources/defense.jpg",
+      "link": "blog/defense.html",
+      "description": "Stay updated on defense news, military strategies, and career opportunities in the defense sector.",
+      "general_stream": "Defense"
+    },
+    {
+      "title": "Marketing & Advertising",
+      "image": "assets/images/resources/marketing.jpg",
+      "link": "blog/marketing-advertising.html",
+      "description": "Learn about marketing strategies, advertising techniques, and brand management.",
+      "general_stream": "Business & Commerce"
+    },
+    {
+      "title": "Sales",
+      "image": "assets/images/resources/sales.jpg",
+      "link": "blog/sales.html",
+      "description": "Improve your sales skills and learn about sales strategies, customer relationship management, and more.",
+      "general_stream": "Business & Commerce"
+    },
+    {
+      "title": "Management",
+      "image": "assets/images/resources/management.jpg",
+      "link": "blog/management.html",
+      "description": "Explore management concepts, leadership styles, and organizational behavior.",
+      "general_stream": "Business & Commerce"
+    },
+    {
+      "title": "Entrepreneurship",
+      "image": "assets/images/resources/entreperneur.jpg",
+      "link": "blog/entrepreneurship.html",
+      "description": "Get inspired by entrepreneurial success stories and learn about startup strategies and business planning.",
+      "general_stream": "Business & Commerce"
+    },
+    {
+      "title": "Law",
+      "image": "assets/images/resources/law.jpg",
+      "link": "blog/law.html",
+      "description": "Stay updated on legal news, court judgments, and career opportunities in the legal sector.",
+      "general_stream": "Law & Governance"
+    },
+    {
+      "title": "Finance & Banking",
+      "image": "assets/images/resources/banking.jpg",
+      "link": "blog/finance-banking.html",
+      "description": "Learn about financial management, banking systems, and investment strategies.",
+      "general_stream": "Business & Commerce"
+    },
+    {
+      "title": "Commerce & Accounts",
+      "image": "assets/images/user/user_1.png",
+      "link": "blog/commerce-accounts.html",
+      "description": "Understand commerce concepts, accounting principles, and financial analysis.",
+      "general_stream": "Business & Commerce"
+    }
+  ]
+}

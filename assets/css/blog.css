@@ -1,0 +1,191 @@
+/* General Styles */
+.page-career {
+    font-family: Arial, sans-serif;
+    color: #3a3a3a;
+    line-height: 1.6;
+  }
+  
+  .page-career .page-header {
+    margin-bottom: 40px;
+  }
+  
+  .page-career .breadcrumb {
+    background-color: transparent;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .page-career .breadcrumb-item a {
+    color: #6206a8;
+  }
+  
+  .page-career .career-introduction {
+    margin-bottom: 40px;
+  }
+  
+  .page-career .career-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .page-career .career-date {
+    font-size: 14px;
+    color: #77838f;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  /* Image Styles */
+  .page-career .career-content img {
+    max-width: 100%;
+    border-radius: 4px;
+    margin-bottom: 30px;
+  }
+  
+  /* Section Titles */
+  .page-career h2 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #6206a8;
+  }
+  
+  /* Lists */
+  .page-career ul, 
+  .page-career ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .page-career li {
+    margin-bottom: 10px;
+  }
+  
+  /* Blockquote Styles */
+  .page-career blockquote {
+    position: relative;
+    padding-left: 27px;
+    margin-bottom: 40px;
+    font-style: italic;
+  }
+  
+  .page-career blockquote p {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  
+  .page-career blockquote::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 7px;
+    background-color: #6206a8;
+    left: 0;
+    top: 8px;
+    bottom: 10px;
+  }
+  
+  /* Author Info */
+  .page-career .career-author-info-section {
+    margin-top: 60px;
+    padding-top: 30px;
+    border-top: 1px solid #e0e0e0;
+  }
+  
+  .page-career .career-author-info-section-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .page-career .career-author-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .page-career .career-author-avatar {
+    width: 68px;
+    max-width: 100%;
+    margin-right: 27px;
+    border-radius: 50%;
+  }
+  
+  .page-career .career-author-info h6 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .page-career .career-author-info .author-social-links a {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #000000;
+    border-radius: 50%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 10px;
+    line-height: 20px;
+    margin-right: 5px;
+  }
+  
+  .page-career .author-description {
+    font-size: 14px;
+    line-height: 1.71;
+    color: #77838f;
+    margin-bottom: 0;
+  }
+  
+  /* Related Posts Section */
+  .page-career .related-posts-section {
+    margin-top: 60px;
+  }
+  
+  .page-career .related-posts-section-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  
+  .page-career .related-post {
+    margin-bottom: 40px;
+  }
+  
+  .page-career .related-post-thumbnail-wrapper {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .page-career .related-post-thumbnail-wrapper img {
+    max-width: 100%;
+    border-radius: 4px;
+  }
+  
+  .page-career .related-post .blog-post-badge {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    padding: 6px 10px;
+    border-radius: 11px;
+    background-color: #c9a013;
+    font-size: 10px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  
+  .page-career .related-post .post-published-date {
+    font-size: 12px;
+    font-weight: 700;
+    color: #77838f;
+    margin-bottom: 5px;
+  }
+  
+  .page-career .related-post .post-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 0;
+  }
+  
