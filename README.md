@@ -11,10 +11,9 @@ Career Quest aims to develop an effective career counselling and guidance progra
 
 ## Team Information
 
-**Team ID**: Team 5  
 **Team Name**: NeuroByte
 
-## Team Members
+### Team Members
 
 - Divyanshu Shukla(Team Leader)
 - Sameer Banarjee
